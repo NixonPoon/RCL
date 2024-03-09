@@ -1,0 +1,190 @@
+.name{	
+  margin : auto;
+  font-size: calc(35px + 1vw);
+}
+
+.title{
+  margin : auto;  
+  font-size:calc(15px + 1vw);
+}
+
+.parent-container{
+    background-color: #3D4B54;
+    margin:6px;
+    flex-direction: column;
+    border-radius:20px;
+    display: flex;
+    justify-conten:center;
+}
+
+.flex-container{
+  border-radius:2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item-1{
+  width:150px;
+  height:150px ;
+}
+
+.item-2{
+  color:#EEA329;
+  align-self: center;
+  width: calc(200px + 12vw) ;
+  height:calc(60px + 2vw);
+}
+
+.item-3{
+  align-self:center;
+  justify-content: space-between;
+}
+
+.item{
+  padding:1em;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas:
+  "g-logo g-name g-name"
+  "g-logo g-title g-title";
+  width:150px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.g-name{
+  grid-area: g-name;
+  background:red;
+  width:400px;
+}
+
+.g-title{
+  grid-area:g-title;
+  background:blue;
+  width:400px;
+}
+
+.g-logo{
+  grid-area:g-logo;
+  width:200px;
+  border:0;
+}
+
+.logo{
+width:170px;
+height:150px;
+overflow:hidden;
+float:left;
+}
+
+.logo img{
+  border:0;
+  width:100%;
+  height:auto;
+}
+
+.jobTitle{
+  text-align: left;
+  margin : auto;
+  font-size: calc(15px + 1vw);
+}
+
+.addate{
+  text-align: center;
+  margin : auto;
+  font-size: 20px;
+}
+
+.leftTop{
+  overflow:left;
+  font-size:calc(10px + 1vw);
+  margin:auto;	
+}
+
+.left{
+  overflow:left;
+  font-size:calc(8px + 1vw);
+  margin:auto;	
+}
+
+.middle{
+  font-size:calc(6px + 1.3vw);
+  color:#EBD89B;
+  text-align: center;
+  margin:auto;  
+}
+
+.right{
+  float: right;
+  font-size:calc(8px + 1vw);
+  margin:auto;		
+}
+
+fieldset{
+  padding-top:0px;
+  padding-bottom:5px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: calc(10px + 1vw);
+}
+
+.BoxWord{
+  font-size: calc(18px + 1.5vw);
+}
+
+.coverletterP{
+  font-size: calc(5px + 1.5vw);
+}
+
+.point{
+/* text-indent:20px;*/
+  padding-left: 3%;
+  padding-right: 0%;
+}
+
+.tool{
+  display: inline-block;
+  font-size: calc(7px + 1.3vw);
+  border: 2px double lightgray;
+  padding:5px;
+  margin: 5px 10px 5px 10px;
+
+}
+
+
+ul{
+  padding-top:5px;
+}
+
+li{
+padding-bottom:1.2vw;
+}
+
+.inline{
+	display:inline-block;
+}
+
+.fsScale{
+  transform:scale(1);
+}
+
+fieldset{
+  margin: 4px;
+}
+
+/* Of All body for printing ing A4 paper*/
+
+body{
+  font-size:calc(5px + 1.2vw);
+  padding: 4%;
+  box-sizing: border-box;
+  font-family: Lucida ;
+  margin: 5px;
+}
